@@ -6,6 +6,26 @@
   "self": "https://raw.githubusercontent.com/jbatonnet/Rinkhals.Firmwares/refs/heads/main/manifests-anycubic/manifest-k2p.json",
   "firmwares": [
     {
+      "version": "2.3.9",
+      "date": 1700831369,
+      "changes": "",
+      "md5": "90a564de611daa6a95a7a40bbb05099e",
+      "url": "https://rinkhals.firmwareforge.org/firmware/Kobra%202%20Pro/K2P_2.3.9.swu",
+      "supported_models": [
+        "K2P"
+      ]
+    },
+    {
+      "version": "3.1.2.3",
+      "date": 1711189561,
+      "changes": "",
+      "md5": "a3984c039ea6b94f9fe8a4b1682f38a7",
+      "url": "https://rinkhals.firmwareforge.org/firmware/Kobra%202%20Pro/K2P_3.1.2.3.swu",
+      "supported_models": [
+        "K2P"
+      ]
+    },
+    {
       "version": "3.1.4",
       "date": 1735207213,
       "md5": "e12e44aee7343975bd1bbb5702236471",

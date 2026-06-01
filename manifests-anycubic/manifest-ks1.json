@@ -6,6 +6,26 @@
   "self": "https://raw.githubusercontent.com/jbatonnet/Rinkhals.Firmwares/refs/heads/main/manifests-anycubic/manifest-ks1.json",
   "firmwares": [
     {
+      "version": "2.4.8.3",
+      "date": 1737193808,
+      "changes": "",
+      "md5": "a38957426e5cd47817baf28bf7491ea2",
+      "url": "https://rinkhals.firmwareforge.org/firmware/Kobra%20S1/KS1_2.4.8.3.swu",
+      "supported_models": [
+        "KS1"
+      ]
+    },
+    {
+      "version": "2.5.0.2",
+      "date": 1741915979,
+      "changes": "",
+      "md5": "eea2decb0c4ad9cb99b344a28cf6e785",
+      "url": "https://rinkhals.firmwareforge.org/firmware/Kobra%20S1/KS1_2.5.0.2.swu",
+      "supported_models": [
+        "KS1"
+      ]
+    },
+    {
       "version": "2.5.0.6",
       "date": 1742569005,
       "changes": "1.Impooved loading and unloading logic\n2.Improved video monitoring stability\t\n3.Other issues fixed",
@@ -106,6 +126,16 @@
       ]
     },
     {
+      "version": "2.5.9.9",
+      "date": 1765952477,
+      "changes": "",
+      "md5": "f8040aca27e5a5204669d2541d63fd0f",
+      "url": "https://rinkhals.firmwareforge.org/firmware/Kobra%20S1/KS1_2.5.9.9.swu",
+      "supported_models": [
+        "KS1"
+      ]
+    },
+    {
       "version": "2.6.0.0",
       "date": 1767511278,
       "changes": "1.Support .gcode.3mf, M73\n2.Support OrcaSlicer print file sending\n3.Support time-lapse file remote management\n4.Enable axis movement when print paused\n5.Fixed print head movement issues",
@@ -121,6 +151,16 @@
       "changes": "1.Added support for ACE V2 and optimized communication stability with filament cartridges.\n2.Fixed issues where printing could not be restarted or the device froze under various scenarios.\n3.Fixed other known issues to improve overall user experience.",
       "md5": "88cb067b6f8712c8d401c492939ce43d",
       "url": "https://cdn.cloud-universe.anycubic.com/attachment/2032364743452106753_ekjrsgp0.swu",
+      "supported_models": [
+        "KS1"
+      ]
+    },
+    {
+      "version": "2.7.2.1",
+      "date": 1776690047,
+      "changes": "",
+      "md5": "3bc1c95b6840bbb22663dfc24d64ad96",
+      "url": "https://rinkhals.firmwareforge.org/firmware/Kobra%20S1/KS1_2.7.2.1.swu",
       "supported_models": [
         "KS1"
       ]
