@@ -54,6 +54,36 @@
       "supported_models": [
         "KS1M"
       ]
+    },
+    {
+      "version": "2.7.1.4",
+      "date": 1782324043,
+      "changes": "",
+      "md5": "7ac8f37b28aceeafca30731afe1c3b05",
+      "url": "https://rinkhals.firmwareforge.org/firmware/Kobra%20S1%20Max/KS1M_2.7.1.4.swu",
+      "supported_models": [
+        "KS1M"
+      ]
+    },
+    {
+      "version": "2.7.2.1",
+      "date": 1786212049,
+      "changes": "",
+      "md5": "c67b521486ccd2cb2f7729e3be14bf3b",
+      "url": "https://rinkhals.firmwareforge.org/firmware/Kobra%20S1%20Max/KS1M_2.7.2.1.swu",
+      "supported_models": [
+        "KS1M"
+      ]
+    },
+    {
+      "version": "2.7.2.6",
+      "date": 1794247249,
+      "changes": "",
+      "md5": "8d16b181e0d22ad88315c70bd7623852",
+      "url": "https://rinkhals.firmwareforge.org/firmware/Kobra%20S1%20Max/KS1M_2.7.2.6.swu",
+      "supported_models": [
+        "KS1M"
+      ]
     }
   ]
 }

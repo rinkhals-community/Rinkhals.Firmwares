@@ -164,6 +164,26 @@
       "supported_models": [
         "KS1"
       ]
+    },
+    {
+      "version": "2.7.2.7",
+      "date": 1780682446,
+      "changes": "",
+      "md5": "49b51f8fbee789c652161f30828d82c0",
+      "url": "https://rinkhals.firmwareforge.org/firmware/Kobra%20S1/KS1_2.7.2.7.swu",
+      "supported_models": [
+        "KS1"
+      ]
+    },
+    {
+      "version": "2.7.3.7",
+      "date": 1793728847,
+      "changes": "",
+      "md5": "caae7e4a795e63c829a1bc55b33d6f95",
+      "url": "https://rinkhals.firmwareforge.org/firmware/Kobra%20S1/KS1_2.7.3.7.swu",
+      "supported_models": [
+        "KS1"
+      ]
     }
   ]
 }
