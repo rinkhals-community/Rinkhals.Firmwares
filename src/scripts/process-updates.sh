@@ -26,6 +26,7 @@ for PRINTER_MODEL_CODE in $PRINTER_MODEL_CODES; do
 
     MANIFEST_PATH=manifests-anycubic/manifest-$(echo ${PRINTER_MODEL_CODE} | tr '[:upper:]' '[:lower:]').json
     MANIFEST_VERSIONS=$(cat $MANIFEST_PATH | jq -r '.firmwares[] | .version')
+    MANIFEST_MD5S=$(cat $MANIFEST_PATH | jq -r '.firmwares[] | .md5 // empty')
     MANIFEST_LAST_VERSION=$(cat $MANIFEST_PATH | jq -r '.firmwares | last | .version')
 
     MANIFEST_MIRROR_PATH=manifests-mirror/manifest-$(echo ${PRINTER_MODEL_CODE} | tr '[:upper:]' '[:lower:]').json
@@ -53,7 +54,12 @@ for PRINTER_MODEL_CODE in $PRINTER_MODEL_CODES; do
 
     #exit
 
-    if [ -z "$UPDATE" ] || [ "$UPDATE_VERSION" = "$MANIFEST_LAST_VERSION" ]; then
+    UPDATE_ALREADY_LISTED=false
+    if [ -n "$UPDATE_MD5" ] && echo "$MANIFEST_MD5S" | grep -Fqx "$UPDATE_MD5"; then
+        UPDATE_ALREADY_LISTED=true
+    fi
+
+    if [ -z "$UPDATE" ] || [ "$UPDATE_VERSION" = "$MANIFEST_LAST_VERSION" ] || [ "$UPDATE_ALREADY_LISTED" = true ]; then
         echo "  No update"
         continue
     fi
